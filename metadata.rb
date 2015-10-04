@@ -25,9 +25,9 @@ supports 'ubuntu'
 supports 'windows'
 
 depends 'build-essential'
-depends 'dmg'
-depends 'windows'
-depends 'yum-epel'
+#depends 'dmg' no not really
+#depends 'windows'
+#depends 'yum-epel'
 
 source_url 'https://github.com/jssjr/git' if respond_to?(:source_url)
 issues_url 'https://github.com/jssjr/git/issues' if respond_to?(:issues_url)
